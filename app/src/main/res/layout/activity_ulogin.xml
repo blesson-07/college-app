@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".ulogin"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="180dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="               LOGIN"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/black"
+            android:textSize="40dp">
+
+        </TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="50dp">
+
+            <EditText
+                android:id="@+id/uemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorLink="@color/black"
+                android:textColor="#3F51B5"
+                android:background="@color/white"
+                android:hint="Email" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="50dp"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/upassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Password"
+                android:textColor="#2196F3"
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/ubutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="30dp"
+            android:text="LOGIN"
+            android:textSize="30dp"
+
+
+            ></Button>
+
+        <TextView
+            android:id="@+id/ulogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="20dp"
+            android:background="#c5489CDB"
+            android:gravity="center"
+            android:text="GO TO REG"
+            android:textSize="30dp"
+
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
