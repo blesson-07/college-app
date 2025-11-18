@@ -10,6 +10,7 @@
     android:background="#FFFFFF"
     tools:context=".MainActivity">
     <!-- Home Label -->
+    
     <TextView
         android:id="@+id/homeText"
         android:layout_width="wrap_content"
