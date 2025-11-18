@@ -9,7 +9,6 @@
     android:padding="24dp"
     android:background="#FFFFFF"
     tools:context=".MainActivity">
-
     <!-- Home Label -->
     <TextView
         android:id="@+id/homeText"
@@ -21,7 +20,7 @@
         android:textColor="#333333"
         android:layout_marginBottom="32dp" />
 
-    <!-- Product List Box -->
+<!-- Product List Box -->
     <LinearLayout
         android:id="@+id/productListContainer"
         android:layout_width="match_parent"
@@ -34,7 +33,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp">
 
-        <!-- Circle Icon -->
+       <!-- Circle Icon -->
         <ImageView
             android:layout_width="32dp"
             android:layout_height="32dp"
